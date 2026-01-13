@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #de8212;
+}
+
+header {
+  background-color: burlywood;
+  padding: 20px;
+  border-bottom: 5px solid #333;
+}
+
+article {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
