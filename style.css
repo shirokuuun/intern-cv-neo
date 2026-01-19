@@ -8,9 +8,43 @@ body {
   line-height: 1.6;
 }
 
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggleBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+body.dark-mode .toggleBtn {
+  background-color: #ffa726;
+  color: #fff;
+}
+
+body.dark-mode .toggleBtn:hover {
+  background-color: #ff9800;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
@@ -39,8 +73,40 @@ article {
   padding: 20px;
 }
 
+body.dark-mode section {
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
 section {
   margin-bottom: 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
+}
+
+#toggleSkill {
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+body.dark-mode #toggleSkill {
+  background-color: #ffa726;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  padding: 10px;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+body.dark-mode #contact a {
+  color: #ffa726;
 }
